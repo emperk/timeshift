@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 //components
-import Home from "./components/Home";
+import StartUp from "./components/StartUp";
 
 import "./App.css";
 
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={ <Home /> } />
+        <Route path="/" element={ <StartUp /> } />
       </Routes>
     </div>
   )
